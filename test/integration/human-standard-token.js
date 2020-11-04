@@ -7,10 +7,10 @@ const ProviderEngine = require('web3-provider-engine')
 
 const solc = require('solc')
 const TokenTracker = require('../../lib')
-const BN = require('ethjs').BN
+const BN = require('@alayanetwork/ethjs').BN
 
-const Eth = require('ethjs-query')
-const EthContract = require('ethjs-contract')
+const Eth = require('@alayanetwork/ethjs-query')
+const EthContract = require('@alayanetwork/ethjs-contract')
 const eth = new Eth(provider)
 const contract = new EthContract(eth)
 

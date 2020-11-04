@@ -6,11 +6,11 @@ const provider = TestRPC.provider()
 const ProviderEngine = require('web3-provider-engine')
 const solc = require('solc')
 const TokenTracker = require('../../lib')
-const BN = require('ethjs').BN
+const BN = require('@alayanetwork/ethjs').BN
 const util = require('../../lib/util')
 
-const Eth = require('ethjs-query')
-const EthContract = require('ethjs-contract')
+const Eth = require('@alayanetwork/ethjs-query')
+const EthContract = require('@alayanetwork/ethjs-contract')
 const eth = new Eth(provider)
 const contract = new EthContract(eth)
 let count = 0

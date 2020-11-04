@@ -2,8 +2,8 @@ const assert = require('assert').strict
 const fs = require('fs')
 const path = require('path')
 const TestRPC = require('ethereumjs-testrpc')
-const Eth = require('ethjs-query')
-const EthContract = require('ethjs-contract')
+const Eth = require('@alayanetwork/ethjs-query')
+const EthContract = require('@alayanetwork/ethjs-contract')
 const solc = require('solc')
 
 const source = fs.readFileSync(path.resolve(__dirname, 'contracts/Token.sol')).toString();

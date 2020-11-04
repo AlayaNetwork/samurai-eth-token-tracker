@@ -1,7 +1,7 @@
 {
-  "name": "@metamask/eth-token-tracker",
+  "name": "@alayanetwork/eth-token-tracker",
   "version": "3.0.0",
-  "description": "A module for tracking Ethereum token balances over block changes.",
+  "description": "A module for tracking PlatON token balances over block changes.",
   "main": "dist/index.js",
   "scripts": {
     "lint": "echo 'Skip'",
@@ -12,32 +12,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MetaMask/eth-token-tracker.git"
+    "url": "git+ssh://git@github.com/AlayaNetwork/samurai-eth-token-tracker.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "keywords": [
-    "ethereum",
+    "platon",
     "tokens"
   ],
   "author": "Dan Finlay <dan@danfinlay.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MetaMask/eth-token-tracker/issues"
+    "url": "https://github.com/AlayaNetwork/samurai-eth-token-tracker/issues"
   },
-  "homepage": "https://github.com/MetaMask/eth-token-tracker#readme",
+  "homepage": "https://github.com/AlayaNetwork/samurai-eth-token-tracker#readme",
   "files": [
     "/dist",
     "/lib"
   ],
   "dependencies": {
     "deep-equal": "^1.1.0",
-    "eth-block-tracker": "^4.4.2",
-    "ethjs": "^0.3.6",
-    "ethjs-contract": "^0.2.1",
-    "ethjs-query": "^0.3.7",
+    "@alayanetwork/eth-block-tracker": "^4.4.3",
+    "@alayanetwork/ethjs": "^0.3.8",
+    "@alayanetwork/ethjs-contract": "^0.2.3",
+    "@alayanetwork/ethjs-query": "^0.3.4",
     "human-standard-token-abi": "^1.0.2",
     "safe-event-emitter": "^1.0.1"
   },
